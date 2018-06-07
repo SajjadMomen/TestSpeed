@@ -7,6 +7,8 @@ You first need to install:
 
 ```
 sudo apt-get install lua5.2
+git clone https://github.com/SajjadMomen/TestSpeed
+cd TestSpeed
 ```
 and run script:
 ```
