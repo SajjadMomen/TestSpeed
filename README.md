@@ -1,15 +1,9 @@
-Install Lua :
-sudo apt-get install lua5.2
-Run script:
-lua testspeed.lua
-Have fun,
-Sajjad Momen.
-# Test Speed
+# Test Speed Server
 **This script does not require a specific package to check the processing speed of your server, and all the code is gathered in a file**
 
 ## Installation
 You first need to install :
-* (Lua)
+* Lua
 
 ```
 sudo apt-get install lua5.2
