@@ -227,7 +227,7 @@ end
 if type(params[1]) == 'nil' then
   local data = {}
   for i=1 , cores do
-    os.execute("sudo tmux new-session -d -s SpeedTestLua-"..i.." 'lua ./speed.lua "..i.."'")
+    os.execute("sudo tmux new-session -d -s SpeedTestLua-"..i.." 'lua ./testspeed.lua "..i.."'")
   end
   SerializeToFile(data, './.SpeedTest.lua')
   print("\027["..color.green[1]..";"..color.black[2].."m> The Operation Started, Please Wait...\027[00m")
